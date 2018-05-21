@@ -584,7 +584,7 @@ fun! s:detailed_colors()
   " https://github.com/bitc/vim-bad-whitespace
   call s:fgbg('BadWhitespace', 'gray238', 'yellow58')
 
-  call s:fg('detailedConstant', 'green34')
+  call s:fg('detailedConstant', 'purple134')
 
   call s:fg('detailedClass', 'yellow190')
   call s:fg('detailedModule', 'yellow142 (TODO: use this)')
@@ -620,11 +620,11 @@ fun! s:detailed_colors()
   call s:fg('detailedFloat', 'red160')
   call s:bold_fg('detailedImaginary', 'red124')
 
-  call s:fg('detailedBlockArgument', 'blue87')
-  call s:fg('detailedSymbol', 'lavender104')
+  call s:bold_fg('detailedBlockArgument', 'blue87')
+  call s:bold_fg('detailedSymbol', 'blue25')
   call s:bold_fg('detailedBlockParameter', 'basic8_cyan')
   call s:fg('detailedBlockParameterList', 'blue25')
-  call s:bold_fg('detailedPredefinedConstant', 'green22')
+  call s:bold_fg('detailedPredefinedConstant', 'lavender104')
   call s:bold_fg('detailedPredefinedVariable', 'blue37')
   call s:fg('detailedBoolean', 'purple131')
   call s:fg('detailedOperator', 'green123')
