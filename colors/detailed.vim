@@ -597,11 +597,11 @@ fun! s:detailed_colors()
 
   call s:fg('detailedInstanceVariable', 'blue75')
 
-  call s:fgbg('detailedString', 'purple125', 'gray233')
+  call s:fg('detailedString', 'green34')
   call s:fgbg('detailedInterpolatedString', 'purple126', 'gray233')
   call s:bold_fgbg('detailedExecutedString', 'green34', 'purple53')
   call s:fgbg('detailedRawString', 'red160', 'gray233')
-  call s:fg('detailedStringDelimiter', 'blue33')
+  call s:fg('detailedStringDelimiter', 'purple125')
   call s:fg('detailedInterpolationDelimiter', 'gray244')
 
   call s:fg('detailedRegexpSpecial', 'seafoam')
