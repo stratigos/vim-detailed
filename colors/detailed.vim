@@ -638,14 +638,14 @@ fun! s:detailed_colors()
   call s:fg('detailedBlock', 'purple225')
   call s:fg('detailedBlockExpression', 'orange180')
   " (conditionals)
-  call s:bold_fg('detailedControl', 'yellow142 (TODO: use this)')
-  call s:bold_fg('Conditional', 'yellow142 (TODO: use this)')
-  call s:bold_fg('detailedConditionalModifier', 'yellow142 (TODO: use this)') " 'Yoda if'
+  call s:bold_fg('detailedControl', 'orange178')
+  call s:bold_fg('Conditional', 'orange178')
+  call s:bold_fg('detailedConditionalModifier', 'orange178') " 'Yoda if'
   call s:fg('detailedConditionalExpression', 'gray255')
   " (loops)
   call s:bold_fg('detailedRepeat', 'orange178')
-  call s:bold_fg('detailedRepeatModifier', 'yellow149') " …while/until
-  call s:fg('detailedRepeatExpression', 'orange222')
+  call s:bold_fg('detailedRepeatModifier', 'yellow142 (TODO: use this)') " …while/until
+  call s:fg('detailedRepeatExpression', 'gray255')
 
   call s:fg('detailedSharpBang', 'gray251')
   " hi rubyMultilineComment cleared
