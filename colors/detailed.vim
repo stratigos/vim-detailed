@@ -616,9 +616,9 @@ fun! s:detailed_colors()
   call s:fg('detailedASCIICode', 'green71')
 
   call s:fg('detailedPseudoVariable', 'purple125')
-  call s:fg('detailedInteger', 'purple134')
-  call s:fg('detailedFloat', 'purple132')
-  call s:bold_fg('detailedImaginary', 'purple139')
+  call s:bold_fg('detailedInteger', 'red160')
+  call s:fg('detailedFloat', 'red160')
+  call s:bold_fg('detailedImaginary', 'red124')
 
   call s:fg('detailedBlockArgument', 'blue87')
   call s:fg('detailedSymbol', 'lavender104')
