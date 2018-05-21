@@ -621,7 +621,7 @@ fun! s:detailed_colors()
   call s:bold_fg('detailedImaginary', 'red124')
 
   call s:bold_fg('detailedBlockArgument', 'blue87')
-  call s:bold_fg('detailedSymbol', 'blue25')
+  call s:bold_fg('detailedSymbol', 'blue33')
   call s:bold_fg('detailedBlockParameter', 'basic8_cyan')
   call s:fg('detailedBlockParameterList', 'blue25')
   call s:bold_fg('detailedPredefinedConstant', 'lavender104')
