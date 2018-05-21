@@ -517,7 +517,7 @@ hi Ignore         ctermfg=0 guifg=bg
 hi Error          term=reverse ctermfg=15 ctermbg=9 guifg=White guibg=Red
 hi Todo           term=standout ctermfg=0 ctermbg=11 guifg=Blue guibg=Yellow
 
-call s:fg('Comment', 'gray242') " In my books, comments should be quiet.
+call s:fg('Comment', 'seafoam') " In my books, comments should be quiet.
 " }}}
 
 " Generic links {{{
@@ -586,9 +586,9 @@ fun! s:detailed_colors()
 
   call s:fg('detailedConstant', 'green34')
 
-  call s:bold_fg('detailedClass', 'purple126')
-  call s:fg('detailedModule', 'purple126')
-  call s:fg('detailedDefine', 'green23')
+  call s:fg('detailedClass', 'yellow228')
+  call s:fg('detailedModule', 'yellow142 (TODO: use this)')
+  call s:fg('detailedDefine', 'yellow190')
   call s:fg('detailedInclude', 'purple53')
   call s:fg('detailedDeclaration', 'yellow100') " Originally for go lang
   call s:fg('detailedDeclType', 'green37') " Originally for go lang
@@ -598,11 +598,11 @@ fun! s:detailed_colors()
   call s:fg('detailedInstanceVariable', 'blue75')
 
   call s:fg('detailedString', 'green34')
-  call s:fgbg('detailedInterpolatedString', 'purple126', 'gray233')
+  call s:fg('detailedInterpolatedString', 'seafoam2 (TODO: use this)')
   call s:bold_fgbg('detailedExecutedString', 'green34', 'purple53')
   call s:fgbg('detailedRawString', 'red160', 'gray233')
   call s:fg('detailedStringDelimiter', 'purple125')
-  call s:fg('detailedInterpolationDelimiter', 'gray244')
+  call s:fg('detailedInterpolationDelimiter', 'purple201')
 
   call s:fg('detailedRegexpSpecial', 'seafoam')
 
