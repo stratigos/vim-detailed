@@ -517,7 +517,7 @@ hi Ignore         ctermfg=0 guifg=bg
 hi Error          term=reverse ctermfg=15 ctermbg=9 guifg=White guibg=Red
 hi Todo           term=standout ctermfg=0 ctermbg=11 guifg=Blue guibg=Yellow
 
-call s:fg('Comment', 'seafoam') " In my books, comments should be quiet.
+call s:fg('Comment', 'gray248') " In my books, comments should be quiet.
 " }}}
 
 " Generic links {{{
@@ -634,14 +634,14 @@ fun! s:detailed_colors()
 
   " Blocks:
   " (basic)
-  call s:fg('detailedMethodBlock', 'green114')
+  call s:fg('detailedMethodBlock', 'gray255')
   call s:fg('detailedBlock', 'purple225')
   call s:fg('detailedBlockExpression', 'orange180')
   " (conditionals)
-  call s:fg('detailedControl', 'orange178')
-  call s:bold_fg('Conditional', 'basic8_yellow')
-  call s:bold_fg('detailedConditionalModifier', 'yellow148') " 'Yoda if'
-  call s:fg('detailedConditionalExpression', 'light_yellow230')
+  call s:bold_fg('detailedControl', 'yellow142 (TODO: use this)')
+  call s:bold_fg('Conditional', 'yellow142 (TODO: use this)')
+  call s:bold_fg('detailedConditionalModifier', 'yellow142 (TODO: use this)') " 'Yoda if'
+  call s:fg('detailedConditionalExpression', 'gray255')
   " (loops)
   call s:bold_fg('detailedRepeat', 'orange178')
   call s:bold_fg('detailedRepeatModifier', 'yellow149') " …while/until
