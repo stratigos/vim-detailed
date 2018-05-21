@@ -584,7 +584,7 @@ fun! s:detailed_colors()
   " https://github.com/bitc/vim-bad-whitespace
   call s:fgbg('BadWhitespace', 'gray238', 'yellow58')
 
-  call s:fg('detailedConstant', 'purple134')
+  call s:bold_fg('detailedConstant', 'purple134')
 
   call s:fg('detailedClass', 'yellow190')
   call s:fg('detailedModule', 'yellow142 (TODO: use this)')
