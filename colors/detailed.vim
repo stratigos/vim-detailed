@@ -586,14 +586,14 @@ fun! s:detailed_colors()
 
   call s:fg('detailedConstant', 'green34')
 
-  call s:fg('detailedClass', 'yellow228')
+  call s:fg('detailedClass', 'yellow190')
   call s:fg('detailedModule', 'yellow142 (TODO: use this)')
-  call s:fg('detailedDefine', 'yellow190')
+  call s:bold_fg('detailedDefine', 'basic8_cyan')
   call s:fg('detailedInclude', 'purple53')
   call s:fg('detailedDeclaration', 'yellow100') " Originally for go lang
   call s:fg('detailedDeclType', 'green37') " Originally for go lang
 
-  call s:bold_fg('detailedFunction', 'blue27')
+  call s:bold_fg('detailedFunction', 'purple201')
 
   call s:fg('detailedInstanceVariable', 'blue75')
 
