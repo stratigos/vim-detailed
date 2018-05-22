@@ -627,7 +627,7 @@ fun! s:detailed_colors()
   call s:bold_fg('detailedPredefinedConstant', 'lavender104')
   call s:bold_fg('detailedPredefinedVariable', 'blue37')
   call s:bold_fg('detailedBoolean', 'red196')
-  call s:fg('detailedOperator', 'orange208')
+  call s:bold_fg('detailedOperator', 'orange208')
   call s:fg('detailedAccess', 'yellow100')
   call s:fg('detailedAttribute', 'orange178') " attr_{accessor,reader,writer}
   call s:fg('detailedEval', 'yellow190')
