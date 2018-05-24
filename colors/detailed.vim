@@ -676,10 +676,10 @@ fun! s:diff_syntax_and_highlights()
   call s:bg('DiffChange', 'gray240')
   call s:bg('DiffText', 'gray232')
   call s:bg('DiffAdd', 'green23')
-  call s:bg('DiffDelete', 'yellow58')
+  call s:bg('DiffDelete', 'purple201')
   " ft=diff syntax uses diff*
-  call s:fg('diffAdded', 'green34')
-  call s:fg('diffRemoved', 'yellow58')
+  call s:bold_fg('diffAdded', 'basic8_green')
+  call s:fg('diffRemoved', 'purple201')
   " diffFile
 endfun
 
