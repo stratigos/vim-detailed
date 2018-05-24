@@ -615,7 +615,7 @@ fun! s:detailed_colors()
   call s:fgbg('rubyRegexp', 'red160', 'gray233')
   call s:fg('detailedASCIICode', 'green71')
 
-  call s:fg('detailedPseudoVariable', 'purple125')
+  call s:bold_fg('detailedPseudoVariable', 'purple134') " `self` and `nil`
   call s:bold_fg('detailedInteger', 'red160')
   call s:fg('detailedFloat', 'red160')
   call s:bold_fg('detailedImaginary', 'red124')
